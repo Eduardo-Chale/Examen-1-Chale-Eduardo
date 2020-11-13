@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Examen DOM</title>
+    <meta charset="UTF-8"/>
+    <script src="scrip.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body onload="llenado()">
+    <p id="Primero">Usando DOM y formularios</p>
+    <p>Nombre: </p>
+    <p>Número de control: </p>
+    <form>
+        Nuevo personaje: <input type="text" id="nuevo">
+        <input type="button" value="Agregar" onclick="agregar()">
+    </form>
+    <p>Personajes favoritos</p>
+    <p>Películas favoritas</p>
+    <ol>
+        <li>Shrek</li>
+        <li>Un mundo feliz</li>
+        <li>La vida inútil de Pito Pérez</li>
+        <li>El club de la pelea</li>
+    </ol>
+    Numero de la pelicula que deseas eliminar: <input type="number" id="numero">
+    <br>
+    <input type="button" value="Eliminar" onclick="eliminar()">
+</body>
+</html>

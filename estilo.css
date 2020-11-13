@@ -1,0 +1,13 @@
+body{
+    background-color: skyblue;
+}
+
+#Primero{
+    font-family: "Arial Black";
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+}
+p{
+    font-weight: bold;
+}
